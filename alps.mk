@@ -152,7 +152,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/alps/alps-vendor.mk)
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES := \
-#	ro.crypto.state=unencrypted \
+	ro.crypto.state=unencrypted \
 	ro.mount.fs=EXT4 \
 	ro.secure=1 \
 	ro.allow.mock.location=0 \
