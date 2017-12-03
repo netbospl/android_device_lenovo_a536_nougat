@@ -1,1 +1,2 @@
-add_lunch_combo full_alps-userdebug
+add_lunch_combo lineage_alps-userdebug
+add_lunch_combo lineage_alps-eng

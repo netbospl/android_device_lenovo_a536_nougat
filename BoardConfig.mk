@@ -40,7 +40,7 @@ BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/tools/bootimg.mk
 
 MTK_PLATFORM := mt6582
 MTK_PROJECT := alps
-TARGET_KERNEL_SOURCE := kernel/mediatek/alps1
+TARGET_KERNEL_SOURCE := kernel/lenovo/a536
 TARGET_KERNEL_CONFIG := alps_defconfig
 BOARD_KERNEL_CMDLINE :=
 BOARD_MKBOOTIMG_ARGS := --base 0x10000000 --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
@@ -101,7 +101,7 @@ WIFI_DRIVER_FW_PATH_P2P:=P2P
  
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true
-MALLOC_IMPL := dlmalloc
+MALLOC_SVELTE := true
 
 # FRAMEWORK WITH OUT SYNC
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true

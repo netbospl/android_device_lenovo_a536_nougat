@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Call device specific makefile
-$(call inherit-product, device/alps/alps.mk)
+$(call inherit-product, device/alps/lineage_alps.mk)
 
 LOCAL_PATH := device/alps
 
@@ -16,7 +16,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.io.scheduler=bfq    
        
-PRODUCT_NAME := full_alps
+PRODUCT_NAME := lineage_alps
 PRODUCT_DEVICE :=alps
 PRODUCT_BRAND := lenovo
 PRODUCT_MANUFACTURER := mediatek
