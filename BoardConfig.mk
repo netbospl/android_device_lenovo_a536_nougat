@@ -18,7 +18,10 @@ TARGET_CPU_MEMCPY_OPT_DISABLE := true
 # NINJA
 USE_NINJA := false
 
-DEVICE_RESOLUTION := 540x960
+# Block based ota
+BLOCK_BASED_OTA := false
+
+DEVICE_RESOLUTION := 480x854
 
 #TARGET_BOOTLOADER_BOARD_NAME := mt6582
 
@@ -105,6 +108,10 @@ WIFI_DRIVER_FW_PATH_P2P:=P2P
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true
 MALLOC_SVELTE := true
+
+# Mediatek flags
+BOARD_HAS_MTK_HARDWARE := true
+MTK_HARDWARE := true
 
 # FRAMEWORK WITH OUT SYNC
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
