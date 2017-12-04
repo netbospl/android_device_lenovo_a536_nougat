@@ -23,8 +23,8 @@ PRODUCT_MANUFACTURER := mediatek
 PRODUCT_MODEL := Lenovo A536
 
 # Correct bootanimation size for the screen
-TARGET_SCREEN_HEIGHT := 960
-TARGET_SCREEN_WIDTH := 540
+TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 480
 
 # set locales & aapt config.
 PRODUCT_LOCALES := ru_RU en_US uk_UA
@@ -33,7 +33,7 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Inherit some common CM stuff.
 CM_BUILD :=a536
-CM_BUILDTYPE :=NIGHTLY
+#CM_BUILDTYPE :=NIGHTLY
 
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
