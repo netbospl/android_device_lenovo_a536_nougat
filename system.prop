@@ -83,7 +83,7 @@ ro.kernel.zio=38,108,105,16
 ro.boot.selinux=disable
 
 # Display
-ro.sf.lcd_density=240
+ro.sf.lcd_density=180
 debug.egl.hw=1
 debug.egl.profiler=1
 qemu.hw.mainkeys=1
