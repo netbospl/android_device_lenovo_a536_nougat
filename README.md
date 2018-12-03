@@ -1,5 +1,5 @@
 ## Lenovo A536
-Unofficial codename - adder
+Unofficial codename - alps
 
 Basic   | Spec Sheet
 -------:|:-------------------------
