@@ -27,7 +27,7 @@ TARGET_SCREEN_HEIGHT := 854
 TARGET_SCREEN_WIDTH := 480
 
 # set locales & aapt config.
-PRODUCT_LOCALES := ru_RU en_US uk_UA
+PRODUCT_LOCALES := pl_PL en_US uk_UA
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
